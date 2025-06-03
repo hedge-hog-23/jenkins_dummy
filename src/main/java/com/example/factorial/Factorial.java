@@ -7,6 +7,6 @@ public class Factorial {
         return n * compute(n - 1);
     }
     public static void main(String args[]) {
-    	System.out.println(compute(10));
+    	System.out.println(compute(10) + "is the result");
     }
 }
